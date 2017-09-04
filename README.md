@@ -18,8 +18,8 @@ To install this module, run the following commands:
      my $file=shift;
      my $resutlt= unbase64($file);
 
-print "md5 fingerpint: ",md5_sum($_ ),"\n"  for(@{$resutlt});
-print "sha265 fingleprint: ",encode_base64(sha256($_ ))  for(@{$resutlt});
+     print "md5 fingerpint: ",md5_sum($_ ),"\n"  for(@{$resutlt});
+     print "sha265 fingleprint: ",encode_base64(sha256($_ ))  for(@{$resutlt});
 
 ## The result
 
